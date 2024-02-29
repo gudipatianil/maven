@@ -35,6 +35,8 @@ public class MyPortlet extends GenericPortlet {
     private PortletRequestDispatcher maximizedView;
     private PortletRequestDispatcher helpView;
 
+    <h1>Welcome to DevOps</h1>
+
     public void doView( RenderRequest request, RenderResponse response )
         throws PortletException, IOException {
 
