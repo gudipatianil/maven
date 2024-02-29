@@ -56,6 +56,8 @@ public class MyPortlet extends GenericPortlet {
 
     }
 
+    <h1>Welcome to DevOps</h1>
+
     public void init( PortletConfig config ) throws PortletException {
         super.init( config );
         normalView  = config.getPortletContext().getRequestDispatcher( NORMAL_VIEW );
