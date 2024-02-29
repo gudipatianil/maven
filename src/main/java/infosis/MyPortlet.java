@@ -58,7 +58,7 @@ public class MyPortlet extends GenericPortlet {
 
     public void init( PortletConfig config ) throws PortletException {
         super.init( config );
-        normalView b = config.getPortletContext().getRequestDispatcher( NORMAL_VIEW );
+        normalView  = config.getPortletContext().getRequestDispatcher( NORMAL_VIEW );
         maximizedView = config.getPortletContext().getRequestDispatcher( MAXIMIZED_VIEW );
         helpView = config.getPortletContext().getRequestDispatcher( HELP_VIEW );
     }
